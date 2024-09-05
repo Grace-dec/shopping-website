@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="sign.css">
+    <script defer src="sign.js"></script>
+</head>
+<body>
+    <img src="#" alt="logo">
+    <div id="main">
+        
+        <div class="info">
+        <div class="text">
+            <p>Login </p>
+        </div>
+
+        <form>
+            <input id="Username" type="text" placeholder="Username" required title="Username">
+           <br><input id="password" type="password" placeholder="Password" required title="Password">
+           <br> <button type="submit" title="Continue" >Continue</button>
+        </form>
+
+            <div class="text_2">
+                or sign in with
+            </div>
+
+        <div class="google" data-onsuccess="onsignIn">
+            <button type="submit" title="Google">Google</button>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <button class="view-modal">View Modal</button>
+  <div class="popup">
+    <header>
+      <span>Share Modal</span>
+      <div class="close"><i class="uil uil-times"></i></div>
+    </header>
+    <div class="content">
+      <p>Share this link via</p>
+      <ul class="icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+      </ul>
+      <p>Or copy link</p>
+      <div class="field">
+        <i class="url-icon uil uil-link"></i>
+        <input type="text" readonly value="example.com/share-link">
+        <button>Copy</button>
+      </div>
+    </div>
+  </div>
+    </footer>
+    
+</body>
+</html>

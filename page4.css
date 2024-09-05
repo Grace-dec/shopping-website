@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(134, 99, 11);
+    display: flex;
+    
+}
+body h1{
+    font-size: 10rcap;
+    margin-left: 10rcap;
+    margin-top: 20rcap;
+}
+#main{
+    margin-top: 10rcap;
+  margin-left: 10rcap;
+  background-color: white;
+  padding: 50px;
+  width: 113rcap;
+}
+#main .text{
+    margin-left: auto;
+    margin-right: auto;
+   font-weight: bold;
+}
+.image{
+    display: flex;
+   justify-content: space-between;
+}
+.image img{
+     border-radius: 10px;
+     width: ;
+}
+
+.download{
+    display: flex;
+    justify-content: space-between;
+}
+.download_1{
+    margin-top: 20rcap;
+    margin-right: -100rcap;
+}
+.download .text_1{
+    font-weight: bold;
+    font-size: 3rcap;
+}
+.download .text_2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image_1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rcap;
+}
